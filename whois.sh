@@ -2,6 +2,7 @@
 
 clear
 sudo apt-get install whois gedit -y
+mkdir ~/WhoIs
 clear
 echo ""
 echo "================================================================================"
@@ -38,7 +39,7 @@ then
   echo ""
   echo "                    Pressione <ENTER> para ver a nota!"
   read #pause
-  whois $ip > ~/WhoIs-Note.txt & gedit ~/WhoIs-Note.txt
+  whois $ip > ~/WhoIs/$ip.txt & gedit ~/WhoIs/$ip.txt
   exit
 else
   whois $ip
