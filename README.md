@@ -6,7 +6,7 @@ Este script foi testado em debian 10 e ubuntu 20.04.
 ## Utilização
 Conceda permições para o arquivo
 
-    chmod +x whois.sh
+    sudo chmod +x whois.sh
     
 Execute o script
 
